@@ -1,0 +1,17 @@
+{
+  "name": "service-s2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@radarlabs/s2": "0.0.3",
+    "express": "^4.17.1",
+    "mysql": "github:mysqljs/mysql"
+  }
+}
